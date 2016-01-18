@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/">
+
+<channel>
+	<title>Personal Tech News &#187; 2014 &#187; May &#187; 28</title>
+	<atom:link href="http://blogs.wsj.com/personal-technology/2014/05/28/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blogs.wsj.com/personal-technology</link>
+	<description>News and reviews on devices, apps and more</description>
+	<lastBuildDate>Tue, 30 Jun 2015 17:03:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.1</generator>
+    <copyright>copyright &#169; 2015 Dow Jones &amp; Company, Inc.</copyright>
+    <image>
+        <title>WSJ: Personal Tech News</title>
+        <url>http://online.wsj.com/img/wsj_rss_logo.png</url>
+        <link>http://online.wsj.com/</link>
+    </image>
+		<item>
+		<title>Do Lookout’s &#8216;Theftie&#8217; Photo Alerts Violate Privacy?</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/do-lookouts-theftie-photo-alerts-violate-privacy/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/do-lookouts-theftie-photo-alerts-violate-privacy/#comments</comments>
+		<pubDate>Wed, 28 May 2014 22:59:29 +0000</pubDate>
+		<dc:creator>Geoffrey A. Fowler</dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Privacy & Security]]></category>
+		<category><![CDATA[Smartphones & Wireless]]></category>
+		<category><![CDATA[Lookout]]></category>
+		<category><![CDATA[Mobile Security]]></category>
+		<category><![CDATA[Theftie]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/personal-technology/?p=470</guid>
+		<description><![CDATA[Lookout’s Mobile Security app takes surreptitious photos of people who may be trying to steal your phone. Does this violate would-be thieves' privacy? Lookout co-founder and CTO Kevin Mahaffey explains his company's decision to include the feature.]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_G_20140528140547.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">When the Lookout mobile security app notices suspicious behavior on Android phones, it takes a “theftie” image of the perpetrator, and emails it to the phone’s owner along with a GPS location.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Lookout via YouTube</dd>
+</dl>
+</div>
+<p>Mobile security firm Lookout on Wednesday unveiled <a href="http://online.wsj.com/articles/to-catch-a-phone-thief-take-a-theftie-1401301130">a new tool for tracking down potential phone thieves: the “theftie,”</a> a covert snapshot of someone using your phone in a suspicious manner.</p>
+<p>Lookout’s Mobile Security app only triggers the photos in specific circumstances, like someone punching in the wrong passcode three times, removing a SIM or turning off your phone. Still, does taking a surreptitious photo of anybody violate their privacy?</p>
+<p>I interviewed Lookout co-founder and CTO Kevin Mahaffey about that very issue. The following are edited excerpts:</p>
+<p><strong>Fowler:</strong> Why is it OK for the Lookout app to take a photo of someone without their explicit permission?</p>
+<p><strong>Mahaffey:</strong> I’m glad you are asking the question. We think of this as two use cases that are important. One is the privacy implications for the owner of the phone, and the other is the privacy implication for someone using the phone in an unauthorized manner.</p>
+<p>We want to make sure that the owner of the phone is never surprised. In this case, the theft alert feature is optional and the user can control what events trigger a theft alert. We are using the standard of “surprise,” not “consent”—it is not enough to just put something into your privacy policy.</p>
+<p><strong>Fowler:</strong> What about the person who is having their photo taken?</p>
+<p><strong>Mahaffey:</strong> With any new technology, we ask ourselves what are the analogies in real life, to figure out what is acceptable.</p>
+<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption alignright caption-alignright " style="width: 262px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ328_MAHAFF_D_20140528141805.jpg" alt="" width="262" height="174" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Kevin Mahaffey, co-founder and CTO of the mobile security firm Lookout, spoke with Personal Tech Columnist Geoffrey A. Fowler about his company’s new anti-smartphone-theft system.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Lookout</dd>
+</dl>
+</div>
+<p>We took a pretty conservative stance—we believe that somebody picking up your phone and using it in an unauthorized way is not unlike somebody entering your house. If I am entering someone else’s property and they have a video camera or a baby monitor, do I have a reasonable expectation of privacy?</p>
+<p>We have a strong responsibility to the owner and the user of the device to make sure they know what is going on. But if somebody is an unauthorized user of your device, we don’t have the same responsibility.</p>
+<p><strong>Fowler:</strong> But is using a phone somewhere, possibly in a private place, the same thing as unauthorized entry into somebody’s private property?</p>
+<p><strong>Mahaffey:</strong> Almost every taxi has some form of video surveillance on it. In a public place, you clearly have no expectation of privacy with respect to video.</p>
+<p>We have been very clear to stay away from any wiretap issues—every state has a different policy on it. This is not audio, it is a picture.</p>
+<p>Many people might have have a video camera of their front door, which we think is very reasonable. Interacting with my phone is like opening my door.</p>
+<p><strong>Fowler:</strong> Lookout thefties work on Android, but <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=AAPL">Apple</a> <span data-widget='dj.ticker' data-ticker-name='AAPL'></span> doesn’t allow iPhone apps like yours to remotely activate the camera (without a user command). Why should they change their policy?</p>
+<p><strong>Mahaffey:</strong> Fundamentally, is technology good or evil? My answer is neither. Technology is neutral.</p>
+<p>You could absolutely make a covert photo taking app into spyware. But I don’t think the ability to take photos in the background is the thing that makes it good or evil—it is the context and the use case.</p>
+<p>I think Apple should allow developers to—with the owner of the phone’s consent—use the camera as they wish, so long as it does not violate the law and it cannot be used for an evil purpose.</p>
+<p><strong>Fowler:</strong> Could a theftie photo finger the wrong culprit?</p>
+<p><strong>Mahaffey:</strong> Think of this just as evidence. The theft alert is part of many things we offer, including location, to someone to help recover a lost or stolen device.</p>
+<p>In some cases a person might have a picture taken when they are not a thief. But when you think about the types of event that trigger a theft alert—like swapping a SIM card or entering a wrong password—in 99% of the cases, that is a theft. Then, in the small minority of cases, it could be somebody else.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/do-lookouts-theftie-photo-alerts-violate-privacy/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_A_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_C_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_D_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_E_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_F_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_G_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_P_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_ER_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_FR_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_GR_20140528140547.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Samsung&#8217;s Health Care Strategy Focuses on Wearables and Data in the Cloud</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/samsungs-health-care-strategy-focuses-on-wearables-and-data-in-the-cloud/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/samsungs-health-care-strategy-focuses-on-wearables-and-data-in-the-cloud/#comments</comments>
+		<pubDate>Wed, 28 May 2014 19:19:28 +0000</pubDate>
+		<dc:creator>Nathan Olivarez-Giles</dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Computers]]></category>
+		<category><![CDATA[Smartphones & Wireless]]></category>
+		<category><![CDATA[Wearables]]></category>
+		<category><![CDATA[Samsung]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/digits/?p=35443</guid>
+		<description><![CDATA[Samsung laid out its vision for the future of wearable technology on Wednesday, outlining a scenario where it collects health data using phone apps, wearable devices and new wearable sensors.]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_G_20140528151014.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Young Sohn, president and chief strategy officer of Device Solutions for <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=005930.SE">Samsung</a> <span data-widget='dj.ticker' data-ticker-name='005930.SE'></span> Electronics, shares the company’s vision for wearable devices and health care cloud platform, on Wednesday in San Francisco.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Nathan Olivarez-Giles/The Wall Street Journal</dd>
+</dl>
+</div>
+<p>Samsung laid out its vision for the future of wearable technology on Wednesday, outlining a scenario where it collects health data using phone apps, wearable devices and new wearable sensors. While Samsung didn’t announce any new consumer products, it did make one thing clear: It plans to invest in health and fitness technology in a major way.</p>
+<p>“There is a tremendous opportunity at the intersection of health and technology,” said Young Sohn, president and chief strategy officer for Samsung Electronics’ Device Solutions. “This is the single greatest opportunity of our generation.” Sohn said that Samsung plans to build out wearable sensors that can monitor our bodies continuously and less invasively.</p>
+<p>As Samsung sees it, it won’t be pushing its take on the future of health tech on its own. “We want to bring the best talent from outside,” Sohn said at a San Francisco press event. “This is a big enough challenge—we cannot do it alone, we have to do it with partners.”</p>
+<p>Still, Samsung wants to be in the driver’s seat, proposing others join its platform for sensor and wearable development. Samsung has created two platforms—the Samsung Simband device and the Samsung Architecture Multimodal Interactions (SAMI) cloud service.</p>
+<p>The Simband is an “investigational” fitness band, not for sale, that Samsung’s Silicon Valley labs have been developing in concert with <a href="https://www.tictrac.com/samsung" target="_blank">health startups</a> and researchers from IMEC, a Belgian biotechnology research center, and the University of California San Francisco. It connects to SAMI, a cloud platform where Samsung and its partners can store and analyze the health data it collects.</p>
+<p>The Simband uses optical and acoustic sensors to effectively listen to a wearer’s pulse to gather heart rate data, body temperature and other diagnostics, as well as more standard sensors such as accelerometers and gyroscopes. Simband also can be charged while a user is wearing it using a “shuttle battery”—a battery pack that can be charged up during the day and snapped onto the band for charging over night.</p>
+<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ452_samsun_G_20140528174439.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Ram Fish, vice president of digital health at Samsung Electronics, demos the prototype Simband smartwatch.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Nathan Olivarez-Giles/The Wall Street Journal</dd>
+</dl>
+</div>
+<p>Both the Simband and SAMI are being built as modular platforms, and development will be open, Sohn said. The vision is to be compatible with apps and devices made by other companies—not the creation of a closed ecosystem, he said.</p>
+<p>“Just like your money would be in a bank, where the bank holds your money but doesn’t own your money, your health data is your personal data,” Sohn said. Samsung stressed that the effort is in early stages and there are challenges around building more capable and accurate seniors, power consumption, miniaturization and privacy and security.</p>
+<p>“Power consumption is critical, people don’t want to have to change batteries every day,” Sohn said, promising that Samsung is working on wearables that wouldn’t have to be removed as often as current fitness bands and smartwatches. Sohn argues that advanced wearable sensors are the next logical step from smartphone apps and fitness bands.</p>
+<p>Luc Julia, a Samsung vice president of innovation, said that SAMI APIs will be made available to developers by the end of the year, and that the APIs will be open for any company to access and build compatible apps.</p>
+<p>“In the end it’s all about data,” Julia said. “SAMI is a data broker that makes it easy to collect any kind of data—it’s agnostic. Even data coming from devices and sensors we don’t know anything about today.” Currently, our smartphones and fitness bands capture very simple data in separate own silos. The point of SAMI is to get everyone on the same page so health data can be collected along with all other sorts of data that phones and wearables collect, in the same single repository, Julia said.</p>
+<p>It’s unclear how quickly Samsung wants to bring the modular hardware ideas into its actual products, or how soon existing or future products could work with SAMI. But the company does already have <a href="http://online.wsj.com/news/articles/SB10001424052702304819004579487393809401188">multiple smartwatches on the market</a>—some with a focus on functioning as a wrist-worn phone and other that are dedicated to fitness—<a href="http://online.wsj.com/news/article_email/SB10001424052702303480304579579830279369694-lMyQjAxMTA0MDIwMzEyNDMyWj">with more watches planned</a>. Samsung said it will host a developer challenge with $50 million set aside to fund SAMI-compatible product ideas, and that more details on its vision will come later this year in its own developer conference, to be held in San Francisco.</p>
+<p>Samsung’s Wednesday announcement can be seen as a preemptive move against <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=AAPL">Apple</a> <span data-widget='dj.ticker' data-ticker-name='AAPL'></span>, which is expected to announce a new <a href="http://blogs.wsj.com/digits/2014/03/17/screenshots-show-an-apple-healthbook-app/">iOS fitness tracking app called Healthbook</a> at the iPhone maker’s Worldwide Developer Conference next week. Healthbook would reportedly serve as one place where all sorts of health data could be collected from various other apps and the iPhone itself. <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=FB">Facebook</a> <span data-widget='dj.ticker' data-ticker-name='FB'></span> too is investing in the health and fitness space. In April, the <a href="http://blogs.wsj.com/digits/2014/04/24/with-app-acquisition-facebook-enters-fitness-tracking-market/">world’s largest social network purchased Moves</a>, a location and fitness tracking app, for an undisclosed price.</p>
+<p>Many Japanese technology firms have also ramped up their investments in medical businesses as they pursue new growth drivers to fill the gap left by declining sales of consumer electronics products. <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=6502.TO">Toshiba</a>  Corp.<span data-widget='dj.ticker' data-ticker-name='6502.TO'></span> and <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=6501.TO">Hitachi</a>  Ltd.<span data-widget='dj.ticker' data-ticker-name='6501.TO'></span> are both actively looking for acquisition targets and will aim to double their revenue from the health-care segment over the next few years. Even <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=7974.TO">Nintendo</a>  Co.<span data-widget='dj.ticker' data-ticker-name='7974.TO'></span> has said it will broaden its core business beyond games into healthcare.</p>
+<p><em>—Kana Inagaki contributed to this article.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/samsungs-health-care-strategy-focuses-on-wearables-and-data-in-the-cloud/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_A_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_C_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_D_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_E_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_F_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_G_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_P_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_ER_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_FR_20140528151014.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ345_YOUNGS_GR_20140528151014.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Video: Drones for Delivery Are Here</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/video-drones-for-delivery-are-here/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/video-drones-for-delivery-are-here/#comments</comments>
+		<pubDate>Wed, 28 May 2014 18:54:55 +0000</pubDate>
+		<dc:creator>WSJ Staff</dc:creator>
+				<category><![CDATA[Robots & Drones]]></category>
+		<category><![CDATA[Drones]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/digits/?p=35445</guid>
+		<description><![CDATA[Drone delivery isn’t the future – it’s here now. Andreas Raptopoulos, chief executive of Singularity University’s Matternet, tells the WSJ’s Deborah Kan how we can use drones to deliver necessities from groceries to medicine.]]></description>
+			<content:encoded><![CDATA[<iframe src="http://video-api.wsj.com/api-video/player/iframe.html?guid=DC32E738-14C3-4FB1-AA4E-7E3F445F6046" width="100%" height="363" frameborder=0 allowfullscreen></iframe>
+<p>Drone delivery isn’t the future – it’s here now. Andreas Raptopoulos, chief executive of Singularity University’s Matternet, tells the WSJ’s Deborah Kan how we can use drones to deliver necessities from groceries to medicine.</p>
+<p>Matternet is putting drones to the test. In Haiti and the Dominican Republic, for example, the company is deploying an aerial vehicle that is able to transport up to 2.2 pounds of goods about 12.4 miles.</p>
+<p>“This type of technology will allow us to connect places that are not well connected today using roads,” Raptopoulos says. In Haiti, for example, the delivery drone can deliver medical diagnostics quickly to remote areas that are difficult to reach by car.</p>
+<p>Also in the Digits show: <a href="http://on.wsj.com/1pxflDz">Got Game? Smart basketball senses your shots</a>. 94Fifty senses your moves better than your coach, teammates or opponents.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/video-drones-for-delivery-are-here/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_A_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_C_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_D_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_E_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_F_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_G_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_P_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ332_digits_ER_20140528142341.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/digits0528_FR_20140528142222.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Lookout App Finds Stolen Smartphones With a &#8216;Theftie&#8217;</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/lookout-app-finds-stolen-smartphones-with-a-theftie/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/lookout-app-finds-stolen-smartphones-with-a-theftie/#comments</comments>
+		<pubDate>Wed, 28 May 2014 18:21:48 +0000</pubDate>
+		<dc:creator>Wilson Rothman</dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Smartphones & Wireless]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Lookout]]></category>
+		<category><![CDATA[Mobile Security]]></category>
+		<category><![CDATA[Theftie]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/personal-technology/?p=469</guid>
+		<description><![CDATA[Lookout, the mobile security software firm, today added Theft Alerts to its Mobile Security app. ]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_G_20140528140547.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">When the Lookout mobile security app notices suspicious behavior on Android phones, it takes a “theftie” image of the perpetrator, and emails it to the phone’s owner along with a GPS location.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Lookout via YouTube</dd>
+</dl>
+</div>
+<p>Lookout, the mobile security software firm, today added theft alerts to its Mobile Security app. When someone tampers with your phone—by removing a SIM card, punching in the wrong passcode or even turning the device off, among other things—the phone takes a “theftie”  image of the perpetrator. You get a report in email containing the impromptu mugshot plus a geographic location of your phone.</p>
+<p>The service, which costs $30 a year and also includes defense against malware and other threats, works best on Android phones. While there is an app available for iPhones, it will not provide a “theftie” image, as <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=AAPL">Apple</a> 's<span data-widget='dj.ticker' data-ticker-name='AAPL'></span> software doesn’t allow it.</p>
+<p>So how well do the new Lookout anti-theft tools work? You’ll have to <a href="http://online.wsj.com/articles/to-catch-a-phone-thief-take-a-theftie-1401301130?mod=djemptech_t">read our full review, by Personal Tech Columnist Geoffrey A. Fowler</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/lookout-app-finds-stolen-smartphones-with-a-theftie/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_A_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_C_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_D_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_E_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_F_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_G_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_P_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_ER_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_FR_20140528140547.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ307_LOOKOU_GR_20140528140547.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Intel CEO Dons &#8216;Smart&#8217; Shirt, Shows Off Robot</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/intel-ceo-dons-smart-shirt-shows-off-robot/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/intel-ceo-dons-smart-shirt-shows-off-robot/#comments</comments>
+		<pubDate>Wed, 28 May 2014 17:45:40 +0000</pubDate>
+		<dc:creator>Don Clark and Brian Fitzgerald</dc:creator>
+				<category><![CDATA[Home Tech]]></category>
+		<category><![CDATA[Robots & Drones]]></category>
+		<category><![CDATA[Smartphones & Wireless]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Microsoft]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/digits/?p=35438</guid>
+		<description><![CDATA[Intel might have missed out on smartphones and tablets, but its chief executive is showing off evidence the chip maker is jumping on newer trends--like wearable computing and robotics.]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/PF-AD469_intelr_G_20140528132929.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Jimmy, Intel’s robot.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Douglas MacMillan/The Wall Street Journal</dd>
+</dl>
+</div>
+<p>Intel might have missed out on smartphones and tablets, but its chief executive is showing off evidence the chip maker is jumping on newer trends–like wearable computing and robotics.</p>
+<p>Brian Krzanich turned up at the Code Conference wearing a “smart” shirt packed with sensors, to measure heart rate and other vital signs for the likes of bikers and joggers.</p>
+<p>He also showed off Jimmy, a white robot designed to walk, talk and dance, and discussed plans for a consumer robot-making kit, priced at $1,600.</p>
+<p>The context for such new initiatives is the fact that Intel–the company that once helped undercut makers of big computers with chips for low-cost PCs–did not realize the disruption presented by tablets, a market dominated by chip designs licensed from ARM Holdings.</p>
+<p>“We missed the tablet. We missed that transition,” said Krzanich, during an on-stage interview Wednesday morning.</p>
+<p>Krzanich, who took the CEO job a year ago, said he is not giving up on tablets while giving more details about previously announced plans to focus on newer markets. He has set a goal of selling chips for 40 million tablets this year.</p>
+<p>To aid that quest, Intel announced on Tuesday an unusual deal with the Chinese chip maker Fuzhou Rockchip Electronics to create Intel-branded chips for use in entry-level tablets running Google’s Android operating system.</p>
+<p>Krzanich, a self-described tinkerer, said Jimmy was made in two weeks using open-source software. It is powered by a Intel PC-class  processor.</p>
+<p>For the robot kit Intel plans to offer, Intel will use Edison, a smaller and less expensive computer on a chip designed for new-wave devices associated with what Silicon Valley calls the Internet of Things.</p>
+<p>“Robots are coming,” Krzanich said, “like it or not.”</p>
+<p>The shirt Krzanich discussed was developed with the help of a company called AiQ, and will be available this summer, he said. It is battery-powered.</p>
+<p>“Right now we think you want to take the battery out before you wash it,” he said, adding that standing in the rain should not be a problem. “We can build devices where you can go into the water.”</p>
+<p>Intel does not make sensors itself at the moment, preferring to stick to the chips that perform calculations on data generated by such components.</p>
+<p>But that could change, Krzanich said. “We are buying the intellectual property and we are just now going through the determination of what do we want to build inside, he said. “We will build some sensors.”</p>
+<p>Touching on other topics, Krzanich said its relations remain good with rivals Google and Microsoft, its longtime partner in PCs–whose CEO Satya Nadella spoke Tuesday night at the Code Conference, and took the job in February.</p>
+<p>“We have probably talked on the phone or met every  month since,” Krzanich said.</p>
+<p>The Code Conference is organized by the online publication Re/code.</p>
+<p> </p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/intel-ceo-dons-smart-shirt-shows-off-robot/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Asus PadFone X, a $199 Tablet/Smartphone Combo, Heads to AT&amp;T</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/asus-padfone-x-a-199-tabletsmartphone-combo-now-up-for-pre-order-at-att/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/asus-padfone-x-a-199-tabletsmartphone-combo-now-up-for-pre-order-at-att/#comments</comments>
+		<pubDate>Wed, 28 May 2014 15:06:24 +0000</pubDate>
+		<dc:creator>Nathan Olivarez-Giles</dc:creator>
+				<category><![CDATA[Smartphones & Wireless]]></category>
+		<category><![CDATA[Tablets]]></category>
+		<category><![CDATA[Asus]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[PadFone]]></category>
+		<category><![CDATA[PadFone X]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/personal-technology/?p=467</guid>
+		<description><![CDATA[Asus' vision of our mobile computing future, the PadFone X, is now available for pre-order exclusively through AT&T.]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_G_20140528105453.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Asus</dd>
+</dl>
+</div>
+<p>Asus’ vision of our mobile computing future, the PadFone X, will be available for pre-order exclusively through AT&T starting June 6. (AT&T says it will ship “later in June.”) The PadFone is <a href="http://blogs.wsj.com/digits/2014/01/06/asus-steps-up-in-mobile-with-help-from-att/">a 5-inch Android handset that comes with a 9-inch tablet “dock.”</a> The idea is that the two devices share a processor and memory, as well as a cellular data plan.</p>
+<p>Just as there are multiple ways to use the PadFone X, there are multiple ways to buy one. In a statement, AT&T said it will sell the PadFone X for $199 on a two-year contract, or by way of the carrier’s Next installment plans at a price of either $22.92 per month for 18 months, or $29.80 per month for 12 months. (That’s just for hardware: a monthly data plan for the PadFone X would of course cost extra. Read <a href="http://online.wsj.com/news/articles/SB10001424052702303880604579405022437683490">additional warnings about carrier installment plans here</a>.)</p>
+<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ201_PADFON_G_20140528105612.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">The Asus PadFone X is a phone/tablet combo that shares a cellular data planand a CPU.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Asus</dd>
+</dl>
+</div>
+<p>The smartphone part of the PadFone equation features a 13-megapixel camera that Asus says will be particularly good at shooting low-light photos. There’s also a 2.3GHz, quad-core Qualcomm Snapdragon 800 CPU inside of the phone, and 16GB of built-in storage, with a MicroSD card slot that can add up to 64GB of extra storage space.</p>
+<p>The tablet contains a much larger battery, so Asus says the phone can double its battery life when docked.</p>
+<p><strong>Correction:</strong> AT&T will allow pre-ordering of the PadFone X on June 6. The article previously stated that the PadFone would be available June 6, and that pre-ordering had begun today.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/asus-padfone-x-a-199-tabletsmartphone-combo-now-up-for-pre-order-at-att/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_A_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_C_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_D_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_E_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_F_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_G_20140528105453.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ198_PADFON_ER_20140528105453.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Microsoft Shows a Version of Skype That Translates Languages in Real Time</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/microsoft-shows-a-version-of-skype-that-translates-languages-in-real-time/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/microsoft-shows-a-version-of-skype-that-translates-languages-in-real-time/#comments</comments>
+		<pubDate>Wed, 28 May 2014 14:03:38 +0000</pubDate>
+		<dc:creator>Douglas MacMillan</dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Online Services]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Skype]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/digits/?p=35427</guid>
+		<description><![CDATA[Microsoft is working on a version of Skype that can translate in real time conversations between people speaking different languages.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=MSFT">Microsoft</a> <span data-widget='dj.ticker' data-ticker-name='MSFT'></span> is working on a version of Skype that can translate in real time conversations between people speaking different languages.</p>
+<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption alignright caption-alignright " style="width: 262px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CZ165_Nadell_D_20140528100019.jpg" alt="" width="262" height="174" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Microsoft CEO Satya Nadella showed a version of Skype that translates conversations in real time.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Microsoft Blog / Code Conference</dd>
+</dl>
+</div>
+<p>Chief Executive Satya Nadella showed off the version of Skype while speaking Tuesday night at the Code Conference in Rancho Palos Verdes, Calif.</p>
+<p>Nadella made a case that a key force driving future innovation is all the data being generated as people use mobile devices, websites and computers. Speech recognition, for example, gets better as more data is gathered about how people speak.</p>
+<p>The technology based on Skype, the free voice and video calling service purchased by Microsoft, translated a live call between a company employee on stage speaking English and another Microsoft employee who spoke German.</p>
+<p>Nadella said the Skype translate service can currently handle 40 languages. It will be available free to Skype users by the end of this year as Windows 8 beta app. Nadella, touting Microsoft’s research chops, said the technology for the service has been in the works in some form for 15 years. Borrowing a word used often by <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=AAPL">Apple</a> <span data-widget='dj.ticker' data-ticker-name='AAPL'></span> founder <a href="http://topics.wsj.com/person/J/steve,-jobs/605">Steve Jobs</a> while demoing new products, Nadella called the translator service “magical.”</p>
+<p>Microsoft <a href="http://blogs.technet.com/b/microsoft_blog/archive/2014/05/27/microsoft-demos-breakthrough-in-real-time-translated-conversations.aspx">said in a blog post</a> Tuesday that Skype has more than 300 million connected users monthly, and that it processes more than 2 billion minutes of conversations a day.</p>
+<p>Microsoft said Skype Translator is in its early days, but that the “Star Trek vision for a Universal Translator isn’t a galaxy away.” It highlighted the potential areas for use — education, diplomacy, multilingual families and business.</p>
+<div>Watch highlights from the Skype Translator demo from the Code conference.</div>
+<iframe id='ifrm_0' class='nonHTMLBox' frameBorder='0' style ='overflow: auto;  border: 0;' width='100%' src='http://blogs.wsj.com/sandbox.php?blog_id=268&post_id=478&sandbox_id=0'></iframe><script>
+setSandboxHeight = function(id, height) {
+    if ( height > 5000 ) return;
+    document.getElementById("ifrm_" + id).height = height+ "px";
+}
+</script>
+    
+<p><em>– Brian R. Fitzgerald contributed to this article.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/microsoft-shows-a-version-of-skype-that-translates-languages-in-real-time/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CZ165_Nadell_A_20140528100019.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ165_Nadell_C_20140528100019.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ165_Nadell_D_20140528100019.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CZ165_Nadell_E_20140528100019.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Japan&#8217;s New Souvenir: The Toilet Seat</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/japans-new-souvenir-the-toilet-seat/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/japans-new-souvenir-the-toilet-seat/#comments</comments>
+		<pubDate>Wed, 28 May 2014 12:23:25 +0000</pubDate>
+		<dc:creator>Kana Inagaki</dc:creator>
+				<category><![CDATA[Home Tech]]></category>
+		<category><![CDATA[Panasonic]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/japanrealtime/?p=16667</guid>
+		<description><![CDATA[Many tourists visiting Japan may be overwhelmed by the functionality of the nation's toilets at first, but a lot of them end up becoming fans of the technology. Some of them even want to take it back home.]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption alignleft caption-alignleft " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CL885_toilet_G_20140422020252.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">A portable bidet device that has become a popular purchase among tourists in Japan along with toilet seats fitted with bidets.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">Courtesy of <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=6752.TO">Panasonic</a>  Corp.<span data-widget='dj.ticker' data-ticker-name='6752.TO'></span></dd>
+</dl>
+</div>
+<p>Introducing the ultimate functional souvenir from Japan: the bidet-equipped toilet seat.</p>
+<p>Many tourists visiting Japan may be embarrassed or even overwhelmed by the functionality of the nation’s toilets at first, but a lot of them end up becoming fans of the technology.</p>
+<p>Some visitors even opt to take home the Japanese toilet experience in the form of a seat with a built-in bidet, or a pop-it-in-your-bag portable version.</p>
+<p>Domestic appliance maker Panasonic says its sales of take-home bidet-fitted toilet seats for tourists jumped fivefold in the 12 months to March on the back of strong demand, particularly from Chinese visitors to Japan.</p>
+<p>The company says it has also sold around 20,000 units of a $55 portable bidet it released in September, with an order for 10,000 additional units recently received from Saudi Arabia.</p>
+<p>For decades, there’s been <a href="http://online.wsj.com/news/articles/SB10001424052702304163604579529032334699364?mg=reno64-wsj" target="_blank">a big push by Japan’s biggest bathroom fixture players from Toto to Lixil to export the nation’s toilet technologies</a>. But when it comes to marketing the products to non-Japanese consumers, it seems that the experience is more effective than any explanation.</p>
+<p>In Japan, most households, hotels and new office buildings have bidet-fitted toilets, providing users with a chance to familiarize themselves with the technology. That counts for more than any expensive ad campaign outlining the operational details, officials at Panasonic say.</p>
+<p>The toilet seats typically have a built-in electric bidet with nozzles and provided the voltage is adjusted they can be taken home by tourists for use overseas.</p>
+<p>Customers who view installation of the seats as cumbersome can opt for the palm-sized portable bidet that runs on batteries. The portable device comes equipped with a small tank you can fill with water before use. To increase their appeal, Panasonic officials have cut back on the noise the devices make and made the design more stylish with colors ranging from pink to turquoise.</p>
+<p>Panasonic started making their bidet seats-–called Toware–for tourists two years ago, hoping to replicate the popularity of Japanese rice cookers and electric shavers among visitors from other parts of Asia.</p>
+<p>But the launch came at a bad time when the number of Chinese visitors–the main market for the devices–plunged. At the time, Chinese tourists spurned Japan following Tokyo’s decision to nationalize contested islets in the East China Sea–a move that infuriated Beijing.</p>
+<p>“We were wondering what to do about the piles of inventory and then sales finally started to recover after around six months (from the launch),” said Satoshi Shouno, a Panasonic official in charge of small appliances.</p>
+<p>Panasonic’s exports of bidet-equipped toilets are still limited compared with other rivals such as Lixil and Toto. But officials hope its growing sales to visitors will raise awareness of its overseas products beyond televisions to other household appliances including gadget-equipped toilet seats.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/japans-new-souvenir-the-toilet-seat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_A_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_C_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_D_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_E_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_F_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_G_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_P_20140422020252.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CL885_toilet_ER_20140422020252.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+		<item>
+		<title>Smartphone App Warns Users to Stop Browsing While Walking</title>
+		<link>http://blogs.wsj.com/personal-technology/2014/05/28/smartphone-app-warns-users-to-stop-browsing-while-walking/?mod=WSJBlog</link>
+		<comments>http://blogs.wsj.com/personal-technology/2014/05/28/smartphone-app-warns-users-to-stop-browsing-while-walking/#comments</comments>
+		<pubDate>Wed, 28 May 2014 12:21:07 +0000</pubDate>
+		<dc:creator>Jun Hongo</dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Mobile Phones]]></category>
+
+		<guid isPermaLink="false">http://blogs.wsj.com/japanrealtime/?p=16985</guid>
+		<description><![CDATA[SoftBank Mobile Corp., one of Japan's leading mobile service providers, is offering a free application that advises users to stop browsing while walking. ]]></description>
+			<content:encoded><![CDATA[<div class="mceTemp " style="text-align: left;">
+<dl class="wp-caption aligncenter caption-centered " style="width: 553px;">
+<dt class="wp-caption-dt"><img class="size-full wp-image-5" src="http://s.wsj.net/public/resources/images/BN-CY996_smartp_G_20140528001942.jpg" alt="" width="553" height="369" /></dt>
+<dd class="wp-caption-dd" style="text-align: left;">Stop Aruki Sumaho uses the device’s sensors to detect walking motion. A yellow banner appears on the screen and freezes the display until the app senses that the owner has stopped walking.</dd>
+<dd class="wp-caption-dd wp-cite-dd" style="text-align: right;">SoftBank Corp.</dd>
+</dl>
+</div>
+<p>People staring into their mobile devices while walking seem to be just about everywhere these days. But rather than just a social nuisance, such people can be a danger to themselves and others, with dozens of injuries reported in Tokyo alone in recent years as a result of being distracted by smartphones while walking.</p>
+<p>Now, SoftBank Mobile Corp., one of Japan’s leading mobile service providers, is offering <a href="http://www.softbank.jp/corp/group/sbm/news/press/2014/20140523_01/" target="_blank">a free application that advises users to stop browsing while walking</a>.</p>
+<p>The app, called Stop Aruki Sumaho (stop smartphone-use while walking), uses the device’s sensors to detect walking motion. A yellow banner appears on the screen and freezes the display until the app senses that the owner has stopped walking, SoftBank told JRT.</p>
+<p>According to the Tokyo Fire department,<a href="http://www.tfd.metro.tokyo.jp/lfe/topics/201403/mobile.html" target="_blank"> between 2010 and 2013 there were 122 people who required emergency medical care due to injuries caused by inattentive smartphone use</a>. There were 36 injuries reported in 2013, up from 23 in 2010.</p>
+<p>While some were minor incidents involving users crashing into lamposts, others were more serious, including a 10-year-old boy who fell off a station platform and was nearly hit by a train.</p>
+<p>The Tokyo Metropolitan Police released a brochure in January warning that using smartphones while walking “limits one’s ability to observe their surroundings and is extremely dangerous.” Major railway companies, including <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=9020.TO">East Japan Railway</a>  Co.<span data-widget='dj.ticker' data-ticker-name='9020.TO'></span>, have also launched campaigns to raise awareness.</p>
+<p>Tokyo’s busiest districts like Shibuya’s famous pedestrian crossing are difficult enough to navigate under the best of circumstances. So just how dangerous are they if everyone is looking at their smartphones while walking? That is something another major mobile carrier, <a href="http://online.wsj.com/public/quotes/main.html?type=djn&symbol=9437.TO">NTT Docomo</a>  Inc.<span data-widget='dj.ticker' data-ticker-name='9437.TO'></span>, studied in <a href="http://www.youtube.com/watch?v=3NDuWV9UAvs" target="_blank">a computer simulation posted on Youtube in March</a>.</p>
+<p>The simulation found that if 1,500 people were to walk through the crossing while using their smartphones, 103 people would trip or fall, 446 would bump to someone else, and 21 would drop their smartphones. Only 547 would manage to cross to the other side safely before the light turned red.</p>
+<p>A SoftBank spokesman acknowledged that it is difficult to imagine smartphone addicts actually installing the new app to remind themselves of their dangerous habit. But parents with children might benefit from the software, he said.</p>
+<p>“We are hoping it will raise awareness about this serious issue and encourage users to enjoy their smartphones safely,” he said.</p>
+<p>Stop Aruki Sumaho is currently only available for devices running the Android operating system. <a href="https://www.nttdocomo.co.jp/info/news_release/2013/12/03_00.html#p01" target="_blank">NTT Docomo introduced a similar software service in December</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blogs.wsj.com/personal-technology/2014/05/28/smartphone-app-warns-users-to-stop-browsing-while-walking/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:group><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_A_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_C_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_D_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_E_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_F_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_G_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_P_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_ER_20140528001942.jpg" type="image/jpg" medium="image" /><media:content url="http://s.wsj.net/public/resources/images/BN-CY996_smartp_FR_20140528001942.jpg" type="image/jpg" medium="image" /></media:group>	</item>
+	</channel>
+</rss>
